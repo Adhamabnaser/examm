@@ -1,0 +1,191 @@
+.loading
+{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(12, 0, 0);
+    z-index: 9999999999999999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lds-ripple {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ripple div {
+    position: absolute;
+    border: 4px solid #fff;
+    opacity: 1;
+    border-radius: 50%;
+    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  }
+  .lds-ripple div:nth-child(2) {
+    animation-delay: -0.5s;
+  }
+  @keyframes lds-ripple {
+    0% {
+      top: 36px;
+      left: 36px;
+      width: 0;
+      height: 0;
+      opacity: 0;
+    }
+    4.9% {
+      top: 36px;
+      left: 36px;
+      width: 0;
+      height: 0;
+      opacity: 0;
+    }
+    5% {
+      top: 36px;
+      left: 36px;
+      width: 0;
+      height: 0;
+      opacity: 1;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+      width: 72px;
+      height: 72px;
+      opacity: 0;
+    }
+  }
+
+/* ----------------- */
+.navv
+{
+    width: 0px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style:none ;
+    z-index: 90;
+    position: fixed;
+}
+#links
+{
+    display: none;
+}
+.w-10
+{
+    width: 5rem !important; 
+    position: fixed;
+    z-index: 99;
+}
+.ms-10
+{
+    margin-left: 20rem;
+    display: none;
+    margin-right: 2rem;
+}
+.btnn
+{
+    background-color: transparent;
+    height: 50px;
+    text-decoration: none;  
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    cursor: pointer; 
+    text-align: center;
+}
+.fs-11
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    display: none;
+    margin-left: 1.5rem; 
+    padding-top: 1.5rem;
+}
+.w-icon
+{
+ width: 50px;
+}
+/* -----------home2 */
+.w-150
+{
+    width: 150%;
+}
+
+/* --------------secti0n2--- */
+.w-90
+{
+    width: 90%;
+    text-align: center;
+}
+.bg-pos
+{
+    background-color: rgba(255, 255, 255, 0.588);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 83%;
+    opacity: 0;
+    z-index: 30;
+    transition: 1s;
+    transform: translate(0px,100px);
+}
+.bg-pos:hover 
+{
+    opacity: 1;
+    transform: translate(0px,0px);
+}
+.pos-1
+{
+    position: absolute;
+    top: 2%;
+    left:75%;
+    opacity: 0;
+}
+.pos-1:hover
+{
+    opacity: 1;
+}
+.pos-1 a
+{
+  background-color: transparent !important;
+}
+.pos-1 a:hover
+{
+  background-color: rgba(255, 255, 255, 0.544) !important;
+}
+/* ============search */
+.sdw
+{
+    box-shadow: 0px 0px 5px 3px rgba(9, 9, 229, 0.715);
+}
+/* ===========cat */
+.fs-icon
+{
+    font-size: 6rem;
+}
+/* =========== */
+.w-40
+{
+    width: 48%;
+}
+.pt-cen
+{
+    padding-top: 15rem;
+}
+
+
+/* @media screen and (max-width: 990px) 
+{
+    .w-icon
+    {
+     width: 50px;
+     height: 50px;
+    }  
+   
+} */
